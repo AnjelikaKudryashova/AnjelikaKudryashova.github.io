@@ -41,6 +41,10 @@ header {
     padding: 17px 55px;
     margin-top: 33px;
 }
+.header-button:hover {
+	box-shadow: none;
+	transition: 0.2s;
+}
 header small {
 	font-size: 12px;
 	display: block;
@@ -142,6 +146,11 @@ footer {
     background-color: transparent;
     color: rgb(222, 237, 254);
     padding: 12px 40px;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: rgb(58, 125, 253);
+	transition: 0.2s;
 }
 @media (max-width: 1200px) {
 	.header-pretitle {
